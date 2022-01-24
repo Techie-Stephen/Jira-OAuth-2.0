@@ -1,0 +1,14 @@
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\bin\Debug\Jira OAuth 2.0.exe.config
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\bin\Debug\Jira OAuth 2.0.exe
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\bin\Debug\Jira OAuth 2.0.pdb
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira_OAuth_2._0.Login.resources
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira_OAuth_2._0.Properties.Resources.resources
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.exe
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.pdb
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hp\Desktop\Jira OAuth 2.0\Jira OAuth 2.0\obj\Debug\Jira OAuth 2.0.csproj.CopyComplete
