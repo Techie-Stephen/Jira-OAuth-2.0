@@ -9,6 +9,7 @@ namespace Jira_OAuth_2._0
     public class AppConstants
     {
         public static string RedirectUrl = "Http://localhost:33007/";
+        public static string PROJECT_KEY = "CM";
         public static string APP_ID = "1bafe816-a9d5-4e27-b7ec-25b1231ce1a6";
         public static string Client_ID = "GigycDkAoekjEuGxRBc54RSYdqfgQ10o";
         public static string Client_SEC = "ckf2G3CdTQGEjf9ixQ3b5zwchdgmDRXPjv4T3SYJUZ5DlajRZ4neKe3oYck1VS-A";
