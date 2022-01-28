@@ -72,6 +72,7 @@ namespace Jira_OAuth_2._0
 
             var data = new GetAccessToken();
             var accessToken = data.GetToken(code);
+            txtEmail.Text = accessToken;
         }
 
         private async void btnLogin_Click(object sender, EventArgs e)
