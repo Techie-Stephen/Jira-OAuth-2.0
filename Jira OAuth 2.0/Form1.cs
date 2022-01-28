@@ -10,12 +10,14 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
-
+using Jira_OAuth_2._0.JireServices;
 
 namespace Jira_OAuth_2._0
 {
     public partial class Login : Form
     {
+        public static string AccessToken = "";
+
         public Login()
         {
             InitializeComponent();
@@ -70,9 +72,14 @@ namespace Jira_OAuth_2._0
                 browserProcess.Close();
             });
 
-            var data = new GetAccessToken();
-            var accessToken = data.GetToken(code);
-            txtEmail.Text = accessToken;
+            var service = new JireService();
+            AccessToken = service.GetToken(code);
+
+            if (!string.IsNullOrEmpty(AccessToken))
+            {
+                Console.WriteLine(AccessToken);
+                Close();
+            }
         }
 
         private async void btnLogin_Click(object sender, EventArgs e)
