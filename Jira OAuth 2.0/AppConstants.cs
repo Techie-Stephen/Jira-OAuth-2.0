@@ -9,7 +9,8 @@ namespace Jira_OAuth_2._0
     public class AppConstants
     {
         public static string RedirectUrl = "Http://localhost:33007/";
-        public static string PROJECT_KEY = "CM";
+
+        public static string BASE_URL = "https://api.atlassian.com/ex/jira/23bf82a7-06b2-496c-8e27-b0e68a939b96/rest/api/3/";
         public static string APP_ID = "1bafe816-a9d5-4e27-b7ec-25b1231ce1a6";
         public static string Client_ID = "GigycDkAoekjEuGxRBc54RSYdqfgQ10o";
         public static string Client_SEC = "ckf2G3CdTQGEjf9ixQ3b5zwchdgmDRXPjv4T3SYJUZ5DlajRZ4neKe3oYck1VS-A";
