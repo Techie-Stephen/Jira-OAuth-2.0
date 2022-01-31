@@ -23,7 +23,7 @@ namespace Jira_OAuth_2._0
             InitializeComponent();
         }
 
-        public async Task JiraLogin()
+        public void JiraLogin()
         {
             HttpListener listener = new HttpListener();
             Process browserProcess = null;
@@ -72,7 +72,7 @@ namespace Jira_OAuth_2._0
                 browserProcess.Close();
             });
 
-            var service = new JireService();
+            var service = new JiraService();
             AccessToken = service.GetToken(code);
 
             if (!string.IsNullOrEmpty(AccessToken))
@@ -82,13 +82,13 @@ namespace Jira_OAuth_2._0
             }
         }
 
-        private async void btnLogin_Click(object sender, EventArgs e)
+        private void btnLogin_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(txtEmail.Text))
                 lblError.Show();
             else
             {
-                await JiraLogin();
+                JiraLogin();
             }
 
         }
